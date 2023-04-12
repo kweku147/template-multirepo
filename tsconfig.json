@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "ESNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "./dist",
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "declaration": true,
+    "declarationMap": true,
+    "lib": ["es6", "dom"],
+  },
+  "exclude": ["node_modules", "dist", "build", "tmp", "**/*.spec.ts"],
+  "include": ["src"]
+}
